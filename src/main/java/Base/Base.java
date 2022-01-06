@@ -41,7 +41,7 @@ public class Base extends Locators  {
 			e.printStackTrace();
 		}
 		if (prop.getProperty("browserName").matches("chrome")) {
-			System.setProperty("webdriver.chrome.driver","C:\\Hackathon Project\\DisplaySportActivities\\drivers1\\chromedriver.exe");
+			System.setProperty("webdriver.chrome.driver","C:\\DisplaySportActivities\\DisplaySportActivities\\DisplaySportActivitiesAndMovies\\drivers1\\chromedriver.exe");
 			driver = new ChromeDriver(); // Initializing the new chrome driver
 		}
 		if (prop.getProperty("browserName").matches("edge")) {
